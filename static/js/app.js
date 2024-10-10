@@ -1,7 +1,8 @@
 // Build the metadata panel
 function buildMetadata(sample) {
+  console.log("Building metadata for sample: " + sample);
   d3.json("https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json").then((data) => {
-
+  console.log("Metadata loaded successfully");
     // get the metadata field
     const metadata = data.metadata;
 
@@ -13,7 +14,7 @@ function buildMetadata(sample) {
     const panel = d3.select("#sample-metadata");
 
     // Use `.html("") to clear any existing metadata
-    panel.html("")
+    panel.html("");
 
     // Inside a loop, you will need to use d3 to append new
     // tags for each key-value in the filtered metadata.
@@ -25,8 +26,9 @@ function buildMetadata(sample) {
 
 // function to build both charts
 function buildCharts(sample) {
+  console.log("Building charts for sample: " + sample);
   d3.json("https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json").then((data) => {
-
+  console.log("Data loaded successfully");
     // Get the samples field
     const samples = data.samples;
 
