@@ -1,6 +1,6 @@
 # belly-button-challenge
-
-This project is an interactive dashboard that explores the Belly Button Biodiversity dataset. The dataset catalogs the microbes found in human navels. The dashboard allows users to visualize the top 10 bacterial species (OTUs) found in each test subject and explore the demographic information for each test subject.
+Background:
+This challenge is to make an interactive dashboard that explores the Belly Button Biodiversity dataset. The dataset catalogs the microbes found in human navels. The dashboard allows users to visualize the top 10 bacterial species (OTUs) found in each test subject and explore the demographic information for each test subject.
 
 Features in the dashboard:
 Interactive Bar Chart: Displays the top 10 bacterial species (OTUs) found in the selected test subject.
