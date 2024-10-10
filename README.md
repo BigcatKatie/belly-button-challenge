@@ -10,7 +10,7 @@ Dropdown Menu: Allows users to select different test subjects and see updated ch
 
 Applied what we learned in this module:
 # HTML: For structuring the webpage, the main HTML file containing the structure of the dashboard
-# JavaScript (D3.js, Plotly.js): For it fetches data, creates the chart, and updates the charts and managing interactivity
+# JavaScript (D3.js, Plotly.js): For fetching data, creating the chart, and updating the charts and managing interactivity
 
 GitHub Pages: For deploying the project online.
 
